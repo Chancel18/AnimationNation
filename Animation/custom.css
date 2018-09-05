@@ -1,0 +1,66 @@
+body{
+	background: #4889F4;
+}
+.loader{
+	width: 170px;
+	height: 170px;
+	margin-left: 45%;
+	margin-right: 50%;
+	margin-top: 15%;
+}
+
+.text-loader{
+	text-align: center;
+	font-family: Roboto;
+	font-size: 25px;
+	margin-top : 5%; 
+	color: white;
+	background: #272427;
+	border-radius: 2px;
+	border: 2px solid #FFFFFF;
+}
+.cube{
+	height: 50px;
+	width: 50px;
+	animation: loader 2s infinite;
+	margin: auto;
+	display: inline-block;
+}
+@-webkit-keyframes loader{
+	0% {
+		transform: scale(0);
+	}
+	50% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(0);
+	}
+}
+.cube:nth-child(1){
+	animation-delay: 0.4s;
+}
+.cube:nth-child(2){
+	animation-delay: 0.6s;
+}
+.cube:nth-child(3){
+	animation-delay: 0.8s;
+}
+.cube:nth-child(4){
+	animation-delay: 0.2s;
+}
+.cube:nth-child(5){
+	animation-delay: 0.4s;
+}
+.cube:nth-child(6){
+	animation-delay: 0.6s;
+}
+.cube:nth-child(7){
+	animation-delay: 0s;
+}
+.cube:nth-child(8){
+	animation-delay: 0.2s;
+}
+.cube:nth-child(9){
+	animation-delay: 0.4s;
+}
